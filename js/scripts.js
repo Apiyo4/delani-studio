@@ -1,1 +1,23 @@
-
+$(document).ready(function(){
+  $("#one").click(function(event){
+    $(".p1").show();
+    $("#one").click(function(){
+      $(".p1").hide();
+    event.preventDefault();
+  });
+  });
+  $("#two").click(function(event){
+    $(".p2").show();
+    $("#two").click(function(){
+      $(".p2").hide();
+    event.preventDefault();
+  });
+  });
+  $("#three").click(function(event){
+    $(".p3").show();
+    $("#three").click(function(){
+      $(".p3").hide();
+    event.preventDefault();
+  });
+  });
+});
