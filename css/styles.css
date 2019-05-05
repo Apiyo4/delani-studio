@@ -1,6 +1,7 @@
-body{
+body {
   font-size: 14px;
 }
+
 .part1 {
   background-image: url("../assets/backgrounds/h_img.jpg");
   background-size: cover;
@@ -9,34 +10,38 @@ body{
   width: 100%;
   background-position: fixed;
 }
+
 .info1 > img {
   position: relative;
   top: 170px;
   left: 500px;
   padding-bottom: 20px;
 }
-.info1 > h2{
+
+.info1 > h2 {
   position: relative;
   top: 170px;
   left: 440px;
   padding-bottom: 5px;
   color: white;
-  text-transform:uppercase;
-  }
-  .info1 > h2 > span{
-    position: relative;
-    left: -80px;
-  }
+}
 
-  .info1 > p{
-    position: relative;
-    top: 170px;
-    left: 300px;
-    padding-bottom: 10px;
-    color: white;
-    text-transform:uppercase;
-    }
-    #img2{
-      position: relative;
-      top: 320px;
-    }
+.info1 > h2 > span {
+  position: relative;
+  left: -80px;
+}
+
+.info1 > p {
+  position: relative;
+  top: 170px;
+  left: 300px;
+  padding-bottom: 10px;
+  color: white;
+  text-transform: uppercase;
+}
+
+#img2 {
+  position: relative;
+  top: 320px;
+  left: 540px;
+}
