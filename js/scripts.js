@@ -1,46 +1,36 @@
-$(document).ready(function() {
-  $("#one").click(function(event) {
+$(document).ready(function(event) {
+  $("#one").click(function() {
     $(".p1").toggle();
-    event.preventDefault();
   });
-  $("#two").click(function(event) {
+  $("#two").click(function() {
     $(".p2").toggle();
-    event.preventDefault();
   });
-  $("#three").click(function(event) {
+  $("#three").click(function() {
     $(".p3").toggle();
-    event.preventDefault();
   });
-  $("#img4").hover(function(event) {
+  $("#img4").hover(function() {
     $("#p4").toggle();
-    event.preventDefault();
   });
-  $("#img5").hover(function(event) {
+  $("#img5").hover(function() {
     $("#p5").toggle();
-    event.preventDefault();
   });
-  $("#img6").hover(function(event) {
+  $("#img6").hover(function() {
     $("#p6").toggle();
-    event.preventDefault();
   });
-  $("#img7").hover(function(event) {
+  $("#img7").hover(function() {
     $("#p7").toggle();
-    event.preventDefault();
   });
-  $("#img8").hover(function(event) {
+  $("#img8").hover(function() {
     $("#p8").toggle();
-    event.preventDefault();
   });
-  $("#img9").hover(function(event) {
+  $("#img9").hover(function() {
     $("#p9").toggle();
-    event.preventDefault();
   });
-  $("#img10").hover(function(event) {
+  $("#img10").hover(function() {
     $("#p10").toggle();
-    event.preventDefault();
   });
-  $("#img11").hover(function(event) {
+  $("#img11").hover(function() {
     $("#p11").toggle();
-    event.preventDefault();
   });
+  event.preventDefault();
 });
