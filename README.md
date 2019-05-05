@@ -13,5 +13,5 @@ HTML was used to create the body, CSS to style it and Javascript's Jquery to mak
 ## Support and contact details
 In case of anything feel free to get in touch at odingoannette@gmail.com
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-Copyright (c) {year} **{List of contributors or company name}**
+*MIT* 
+Copyright (c) {2019} **Annette Odingo** https://github.com/Apiyo4/delani-studio/blob/master/LICENSE
