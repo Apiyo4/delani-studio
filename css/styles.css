@@ -44,7 +44,7 @@ body {
   top: 320px;
   left: 540px;
 }
-.part2, .part4 {
+.part2, .part4, .part6 {
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -74,7 +74,7 @@ h2, h4, h6 {
 .part4 p{
   display: none;
 }
-.part4 > h2{
+.part4 > h2, .part5 > h2{
   padding-bottom: 10px;
 }
 .work1, .work2, .work3, .work4, .work5, .work6, .work7, .work8{
