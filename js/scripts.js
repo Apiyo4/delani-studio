@@ -1,12 +1,12 @@
 $(document).ready(function(event) {
   $("#one").click(function() {
-    $(".p1").toggle();
+    $(".p1, .img12").toggle();
   });
   $("#two").click(function() {
-    $(".p2").toggle();
+    $(".p2, .img13").toggle();
   });
   $("#three").click(function() {
-    $(".p3").toggle();
+    $(".p3, img14").toggle();
   });
   $("#img4").hover(function() {
     $("#p4").toggle();
