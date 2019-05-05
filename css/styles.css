@@ -11,14 +11,14 @@ body {
   background-position: fixed;
 }
 
-.info1 > img {
+.info1>img {
   position: relative;
   top: 170px;
   left: 500px;
   padding-bottom: 20px;
 }
 
-.info1 > h2 {
+.info1>h2 {
   position: relative;
   top: 170px;
   left: 440px;
@@ -26,12 +26,12 @@ body {
   color: white;
 }
 
-.info1 > h2 > span {
+.info1>h2>span {
   position: relative;
   left: -80px;
 }
 
-.info1 > p {
+.info1>p {
   position: relative;
   top: 170px;
   left: 300px;
@@ -44,6 +44,7 @@ body {
   top: 320px;
   left: 540px;
 }
+
 .part2, .part4, .part6 {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -52,48 +53,57 @@ body {
 h2, h4, h6 {
   text-transform: uppercase;
 }
-.part3{
+
+.part3 {
   background-image: url("../assets/backgrounds/s_image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 290px;
   width: 100%;
   background-position: relative;
+}
 
-}
-.part3 > h4{
+.part3>h4 {
   position: relative;
   top: 90px;
   color: white;
 }
-.part3 > p{
+
+.part3>p {
   position: relative;
   top: 90px;
   color: white;
 }
-.part4 p{
+
+.part4 p {
   display: none;
 }
-.part4 > h2, .part5 > h2{
+
+.part4>h2, .part5>h2 {
   padding-bottom: 10px;
 }
-.work1, .work2, .work3, .work4, .work5, .work6, .work7, .work8{
+
+.work1, .work2, .work3, .work4, .work5, .work6, .work7, .work8 {
   height: 120px;
   width: 40px;
 }
-.work img{
+
+.work img {
   height: 100%;
   width: 100%;
 }
-.work{
+
+.work {
   margin-left: 130px;
   margin-right: 110px;
 }
-#p4, #p5, #p6, #p7, #p6, #p7, #p8, #p9, #p10, #p11{
+
+#p4, #p5, #p6, #p7, #p6, #p7, #p8, #p9, #p10, #p11 {
   display: none;
   border: solid;
 }
-.part6{
+
+.part6 {
   background-image: url("../assets/backgrounds/c_image.jpg");
   background-position: center;
   background-size: cover;
@@ -101,28 +111,33 @@ h2, h4, h6 {
   padding-top: 30px;
   padding-bottom: 80px;
 }
-.part6 > h2{
-  color: white;
 
+.part6>h2 {
+  color: white;
 }
-form{
+
+form {
   margin-left: 250px;
   margin-right: 250px;
   margin-top: 30px;
 }
-#input1, #input2, #input3{
+
+#input1, #input2, #input3 {
   background-color: transparent;
   color: white;
 }
-.form-control:focus{
-border-color: #ccc;
-box-shadow: 0 0 3px #ccc;
+
+.form-control:focus {
+  border-color: #ccc;
+  box-shadow: 0 0 3px #ccc;
 }
+
 .form-control::placeholder {
   color: white;
   opacity: 1;
 }
-.icons{
- padding-bottom: 20px;
- padding-top: 20px;
+
+.icons {
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
