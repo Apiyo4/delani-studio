@@ -77,14 +77,3 @@ h2, h4, h6 {
 .part4 > h2{
   padding-bottom: 10px;
 }
-.d-flex{
-  justify-content: space-around;
-}
-.work1, .work2, .work3, .work4, .work5, .work6, .work7, .work8,{
-  height: 240px;
-  width: 180px;
-}
-.work img{
-  height: 100%;
-  width: 100%;
-}
