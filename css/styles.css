@@ -101,6 +101,7 @@ h2, h4, h6 {
 #p4, #p5, #p6, #p7, #p6, #p7, #p8, #p9, #p10, #p11 {
   display: none;
   border: solid;
+  text-align: center;
 }
 
 .part6 {
