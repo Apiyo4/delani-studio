@@ -9,10 +9,14 @@ $(document).ready(function() {
     $(".p3, .img14").toggle();
   });
 
-  $('.para').hover(function () {
-    $(this).animate({opacity:'1'});
+  $('.para').hover(function() {
+      $(this).animate({
+        opacity: '1'
+      });
     },
-    function () {
-    $(this).animate({opacity:'0'});
-});
+    function() {
+      $(this).animate({
+        opacity: '0'
+      });
+    });
 });
