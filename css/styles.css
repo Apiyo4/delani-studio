@@ -92,3 +92,32 @@ h2, h4, h6 {
 #p4, #p5, #p6, #p7, #p6, #p7, #p8, #p9, #p10, #p11{
   display: none;
 }
+.part6{
+  background-image: url("../assets/backgrounds/c_image.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+.part6 > h2{
+  color: white;
+
+}
+form{
+  margin-left: 220px;
+  margin-right: 220px;
+  margin-top: 30px;
+}
+#input1, #input2, #input3{
+  background-color: transparent;
+  color: white;
+}
+.form-control:focus{
+border-color: #ccc;
+box-shadow: 0 0 3px #ccc;
+}
+.form-control::placeholder {
+  color: white;
+  opacity: 1;
+}
