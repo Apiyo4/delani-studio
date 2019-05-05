@@ -20,4 +20,8 @@ $(document).ready(function(){
     event.preventDefault();
   });
   });
+  $("#img4").hover(function(event){
+   $("#p4").show();
+  event.preventDefault();
+});
 });
