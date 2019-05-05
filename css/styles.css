@@ -77,11 +77,15 @@ h2, h4, h6 {
 .part4 > h2{
   padding-bottom: 10px;
 }
-.work1, .work2, .work3, .work4, .work5, .work6, .work7, .work8,{
-  height: 240px;
-  width: 180px;
+.work1, .work2, .work3, .work4, .work5, .work6, .work7, .work8{
+  height: 120px;
+  width: 40px;
 }
 .work img{
   height: 100%;
   width: 100%;
+}
+.work{
+  margin-left: 130px;
+  margin-right: 110px;
 }
