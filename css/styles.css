@@ -37,7 +37,6 @@ body {
   left: 300px;
   padding-bottom: 10px;
   color: white;
-  text-transform: uppercase;
 }
 
 #img2 {
@@ -52,4 +51,23 @@ body {
 
 h2, h4 {
   text-transform: uppercase;
+}
+.part3{
+  background-image: url("../assets/backgrounds/s_image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 290px;
+  width: 100%;
+  background-position: relative;
+
+}
+.part3 > h4{
+  position: relative;
+  top: 90px;
+  color: white;
+}
+.part3 > p{
+  position: relative;
+  top: 90px;
+  color: white;
 }
