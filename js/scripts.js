@@ -19,4 +19,10 @@ $(document).ready(function() {
         opacity: '0'
       });
     });
+
+  $("button").click(function(event) {
+    event.preventDefault();
+    var user = document.getElementById('input1').value;
+    alert(user + " we've received your message, thank you for getting in touch with us");
+  });
 });

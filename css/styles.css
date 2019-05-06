@@ -8,7 +8,7 @@ body {
   background-repeat: no-repeat;
   height: 620px;
   width: 100%;
-  background-position: fixed;
+  background-position: relative;
 }
 
 .info1>img {
@@ -150,3 +150,32 @@ form {
   margin-top: -84%;
   opacity: 0;
 }
+
+@media screen and (max-width: 995px) {
+  .info1>img, {
+    position: relative;
+    left: 300px;
+  }
+
+  .info1>h2 {
+    position: relative;
+    left: 240px;
+  }
+
+  .info1>h2>span {
+    position: relative;
+    left: -80px;
+  }
+
+  .info1>p {
+    position: relative;
+    left: 180px;
+  }
+}
+@media screen and (max-width: 769px) {
+ part1{
+   margin-left: 0;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+ }
