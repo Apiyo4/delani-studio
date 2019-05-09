@@ -1,5 +1,4 @@
 # Delani studio
-![ Delani Studio](https://user-images.githubusercontent.com/26204799/57196561-c4c36d80-6f66-11e9-9922-8bae1d9ef36b.jpg)
 #### This a website for Delani Studio, 5 May 2019. 
 #### By **Annette Odingo**
 ## Description
@@ -9,10 +8,9 @@ On loading the page, you will find the landing page welcoming you to the site. O
 ## Behavior driven development
 |Behavior|Input|Output|
 |:-------|-----:|:------|
-|Enter name| Annette Odingo| |
-|Enter email address| odingoannette@gmail.com | |
-|Enter Comment| Get in touch with me on my email| |
-|Click submit| Click submit| Annette Odingo we've received your message, thank you for getting in touch with us|
+|Loads page| enter this url https://apiyo4.github.io/delani-studio/| Landing page |
+| | Click on images, or hover around images |Information about pages appear |
+|Enter name, email address and comment and comment and then submit| Annette Odingo, odingoannette@gmail.com, I'm interested in this service|Annette Odingo we've received your message, thank you for getting in touch with us |
 ## Known Bugs
 As of now there are no known bugs.
 ## Technologies Used
