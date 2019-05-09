@@ -1,5 +1,6 @@
 body {
   font-size: 14px;
+  color: blue;
 }
 
 .part1 {
@@ -151,7 +152,27 @@ form {
   opacity: 0;
 }
 
-@media screen and (max-width: 995px) {
+@media only screen and (max-width: 1037px) {
+  part5 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .work1, .work2, .work3, .work4, .work5, .work6, .work7, .work8 {
+    height: 200px;
+    width: 300px;
+  }
+
+  body {
+    margin-left: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+    font-size: 18px;
+    color: black;
+  }
+
   .info1>img, {
     position: relative;
     left: 300px;
@@ -171,11 +192,13 @@ form {
     position: relative;
     left: 180px;
   }
+  .para {
+    margin-top: -64%;
+  }
+
+  .form {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+  }
 }
-@media screen and (max-width: 769px) {
- part1{
-   margin-left: 0;
-   margin: 0;
-   padding: 0;
-   width: 100%;
- }
