@@ -164,41 +164,22 @@ form {
     width: 300px;
   }
 
-  body {
-    margin-left: 0 !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    width: 100%;
-    font-size: 18px;
-    color: black;
-  }
-
-  .info1>img, {
-    position: relative;
-    left: 300px;
-  }
 
   .info1>h2 {
-    position: relative;
-    left: 240px;
-  }
-
-  .info1>h2>span {
-    position: relative;
-    left: -80px;
+   position: relative;
+   left: 100px;
+   text-align: left;
   }
 
   .info1>p {
-    position: relative;
-    left: 180px;
+   position: relative;
+   left: 10px;
   }
   .para {
     margin-top: -64%;
   }
-
-  .form {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 30px;
+ #my-form{
+    margin-left: 50px !important;
+    margin-right: 50px !important;
   }
 }
