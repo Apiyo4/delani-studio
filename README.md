@@ -9,7 +9,7 @@ On loading the page, you will find the landing page welcoming you to the site. O
 |Behavior|Input|Output|
 |:-------|-----:|:------|
 |Loads page| enter this url https://apiyo4.github.io/delani-studio/| Landing page |
-| | Click on images, or hover around images |Information about pages appear |
+| | Click on images, or hover around images |Information about the images appear |
 |Enter name, email address and comment and comment and then submit| Annette Odingo, odingoannette@gmail.com, I'm interested in this service|Annette Odingo we've received your message, thank you for getting in touch with us |
 ## Known Bugs
 As of now there are no known bugs.
